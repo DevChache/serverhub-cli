@@ -1,0 +1,26 @@
+{
+    "name": "serverhub-cli",
+    "version": "0.0.2",
+    "description": "Initializer of ServerHub",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "serverhub",
+        "cli"
+    ],
+    "author": "DevChache",
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^2.12.2",
+        "fs-extra": "^5.0.0"
+    },
+    "bin": {
+        "serverhub-cli": "./index.js"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^5.0.0",
+        "@types/node": "^8.5.5"
+    }
+}
