@@ -1,6 +1,6 @@
 {
     "name": "serverhub-cli",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "description": "Initializer of ServerHub",
     "main": "index.js",
     "scripts": {

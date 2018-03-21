@@ -1,15 +1,12 @@
+/**
+ * Demo App Entry
+ * 
+ * ServerHub CLI, MIT License
+ * ServerHub MVC version 0.0.93
+ * Yang Zhongdong (yangzd1996@outlook.com)
+ */
 const serverhub = require('serverhub-mvc');
-const fs = require('fs');
-const path = require('path');
 
 serverhub.Run({
-    BaseDir: __dirname,
-    WebDir: 'www/',
-    Controllers: ['home.js']
-}, (route) => {
-    route.MapRoute('default', '{controller}/{action}/{id}', {
-        Controller: 'home',
-        Action: 'index',
-        id: ''
-    });
+    BaseDir: __dirname
 });
