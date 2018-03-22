@@ -25,7 +25,7 @@
     "rimraf": "^2.6.2"
   },
   "bin": {
-    "serverhub-cli": "./index.js"
+    "serverhub-cli": "./bin/serverhub-cli.js"
   },
   "devDependencies": {
     "@types/fs-extra": "^5.0.0",
