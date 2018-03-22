@@ -4,11 +4,19 @@ This is the CLI tool for [serverhub-mvc](https://www.npmjs.com/package/serverhub
 
 ## About
 
-This tool is only for generating basic file structure for serverhub-mvc, and you can get a demo with option `-d`.
+This tool is only for generating basic file structure for serverhub-mvc
 
-Any detailed information about usage, please refer to `serverhub-cli -h`.
+## Usage
 
----
-CHINESE version:
+```
+npm -i -g serverhub-cli
+cd /your/workspace
 
-这是 ServerHub MVC 项目的命令行工具，用来生成所需的目录结构，还可以生成一个 demo。如果你需要任何的使用帮助，可以在安装后使用 `serverhub-cli -h` 命令来获取说明。
+serverhub-cli init [project-name]
+
+cd /[project-name]
+npm install
+npm run dev
+```
+
+the serverhub project will be started at 926 port by default
