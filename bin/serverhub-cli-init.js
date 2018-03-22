@@ -1,5 +1,12 @@
 #!/usr/bin/env node
 
+/**
+ * Generator Library
+ * 
+ * Mao Yuyang, 2018
+ * ServerHub CLI
+ */
+
 const commander = require('commander')
 const path = require('path')
 const fs = require('fs')
@@ -22,10 +29,10 @@ let next
 
 if (!projectName) {
   commander.help()
-  return 
+  return
 }
 
-function updateRootName () {
+function updateRootName() {
   const files = fs.readdirSync(rootPath)
   const length = files.length
   // if some files in directory
@@ -61,7 +68,7 @@ function updateRootName () {
   }
 }
 
-function run () {
+function run() {
   updateRootName()
 
   if (isRepeat) return
@@ -75,7 +82,7 @@ function run () {
           downloadTemp: target,
         }
       })
-      .catch(err => console.log(err))
+        .catch(err => console.log(err))
     })
     .then(context => {
       return inquirer.prompt([

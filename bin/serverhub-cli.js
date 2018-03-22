@@ -1,5 +1,13 @@
 #!/usr/bin/env node
 
+/**
+ * Generator Library
+ * 
+ * Mao Yuyang, 2018
+ * ServerHub CLI
+ */
+
+
 const commander = require('commander')
 const config = require('../config')
 const package = require('../package.json')
