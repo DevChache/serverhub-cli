@@ -1,5 +1,5 @@
 const config = {
-  url: 'https://github.com/ServerHubOrg/serverhub-template.git',
+  repository: 'github:ServerHubOrg/serverhub-template',
 }
 
 module.exports = config

@@ -15,6 +15,7 @@
   "dependencies": {
     "chalk": "^2.3.2",
     "commander": "^2.12.2",
+    "download-git-repo": "^1.0.2",
     "fs-extra": "^5.0.0",
     "git-clone": "^0.1.0",
     "handlebars": "^4.0.11",
